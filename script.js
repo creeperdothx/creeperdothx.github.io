@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  const startMessage = "Click here to see the motion baby";
+  const startMessage = "Click here to see greatness";
   let startTextContent = '';
   let startIndex = 0;
   let startCursorVisible = true;
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  const name = "JAQLIV";
+  const name = "creeperdothx";
   let nameText = '';
   let nameIndex = 0;
   let isNameDeleting = false;
@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nameIndex--;
     } else if (nameIndex === name.length) {
       isNameDeleting = true;
-      setTimeout(typeWriterName, 10000);
+      setTimeout(typeWriterName, 2000);
       return;
     } else if (nameIndex === 0) {
       isNameDeleting = false;
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', () => {
       profileName.classList.add('glitch');
       setTimeout(() => profileName.classList.remove('glitch'), 200);
     }
-    setTimeout(typeWriterName, isNameDeleting ? 150 : 300);
+    setTimeout(typeWriterName, isNameDeleting ? 150 : 50);
   }
 
   setInterval(() => {
@@ -236,8 +236,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const bioMessages = [
-    "Fu*k Guns.lol & Fakecrime.bio got banned too often, so I created my own.",
-    "\"Hello, World!\""
+    "Founder of Jello Software",
+    "Contacting the Mothership",
+    "hostdothx.vercel.app",
+    "I <3 mint"
   ];
   let bioText = '';
   let bioIndex = 0;
@@ -254,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
       bioIndex--;
     } else if (bioIndex === bioMessages[bioMessageIndex].length) {
       isBioDeleting = true;
-      setTimeout(typeWriterBio, 2000);
+      setTimeout(typeWriterBio, 1000);
       return;
     } else if (bioIndex === 0 && isBioDeleting) {
       isBioDeleting = false;
